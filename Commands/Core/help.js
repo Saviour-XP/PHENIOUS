@@ -531,7 +531,24 @@ Here's the list of my Commands.\n
       ];
 
       let selectedSong = favSongs[Math.floor(Math.random() * favSongs.length)];
-
+      
+      let buttons = [
+        {
+          buttonId: `${prefix}owner`,
+          buttonText: { displayText: "" },
+          type: 1,
+        },
+        {
+          buttonId: `${prefix}repo`,
+          buttonText: { displayText: "" },
+          type: 1,
+        },
+        {
+          buttonId: `${prefix}play ${selectedSong}`,
+          buttonText: { displayText: `` },
+          type: 1,
+        },
+      ];
       
       let buttonMessage = {
         video: { url: botVideo },
