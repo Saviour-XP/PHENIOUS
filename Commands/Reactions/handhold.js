@@ -7,7 +7,7 @@ module.exports = {
   desc: "To handhold for someone",
   category: "Reaction",
   usage: `handhold @user`,
-  react: "❤",
+  react: "❄️",
   start: async (Miku, m, { text, prefix, args,mentionByTag }) => {
     var pat = await fetchJson(`https://api.waifu.pics/sfw/handhold`);
     try {
