@@ -543,11 +543,6 @@ Here's the list of my Commands.\n
           buttonText: { displayText: "🧩 Source Code 🧩" },
           type: 1,
         },
-        {
-          buttonId: `${prefix}play ${selectedSong}`,
-          buttonText: { displayText: `🔖 Song of the day 🔖` },
-          type: 1,
-        },
       ];
       let buttonMessage = {
         video: { url: botVideo },
