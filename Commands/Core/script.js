@@ -5,10 +5,10 @@ module.exports = {
     name: "script",
     alias: ["repo","sc","sourcecode"],
     desc: "Say hello to bot.",
-    react: "🍁",
+    react: "📡",
     category: "Core",
     start: async(Miku, m,{pushName,prefix}) => {
-        let picURL = fs.readFileSync('https://i.pinimg.com/236x/e3/81/ad/e381ad1da391f42c4da52c9173a25c33.jpg')
+        let picURL = fs.readFileSync('')
         let repoInfo = await axios.get('https://chat.whatsapp.com/EKeEVkmNCprAcgqRTSKDRt')
         let repo = repoInfo.data
         let txt = `      🧣 *${botName}'s Script* 🧣\n\n*🎀 Total Forks:* ${repo.forks_count}\n*⭐ Total Stars:* ${repo.stargazers_count}\n*📜 License:* ${repo.license.name}\n*📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n*📅 Last Updated:* ${repo.updated_at}\n\n*🔗 Repo Link:* ${repo.html_url}\n\n❝ Dont forget to give a Star ⭐ to the repo. It's made with restless harkwork by *RAKU*. ❞\n\n*©️ WRATH- 2023*`
