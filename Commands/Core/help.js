@@ -535,12 +535,12 @@ Here's the list of my Commands.\n
       let buttons = [
         {
           buttonId: `${prefix}owner`,
-          buttonText: { displayText: "🧣 Bot Owner 🧣" },
+          buttonText: { displayText: "𝙺𝙰𝙼𝙸" },
           type: 1,
         },
         {
           buttonId: `${prefix}support`,
-          buttonText: { displayText: "🧩 Source Code 🧩" },
+          buttonText: { displayText: "𝚂𝙰𝙼𝙰" },
           type: 1,
         },
       ];
