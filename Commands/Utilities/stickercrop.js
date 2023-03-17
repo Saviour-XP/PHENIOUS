@@ -2,7 +2,7 @@ const { Sticker, StickerTypes } = require('wa-sticker-formatter')
 
 module.exports = {
     name: "stickercrop",
-    alias: ["scrop","s--c"],
+    alias: ["scrop","sc"],
     desc: "To make square sized sticker",
     category: "Utilities",
     usage: "scrop <reply to image>",
