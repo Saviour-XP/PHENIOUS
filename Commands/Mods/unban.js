@@ -24,7 +24,7 @@ module.exports = {
     if (modStatus == "false" && !isCreator)
       return Miku.sendMessage(
         m.from,
-        { text: "Sorry, only my *Owner* and *Mods* can use this command !" },
+        { text: "Sorry, only my *Mods* can use this command !" },
         { quoted: m }
       );
 
@@ -49,7 +49,7 @@ module.exports = {
             return Miku.sendMessage(
               m.from,
               {
-                text: `@${mentionedUser.split("@")[0]} is not *Banned* !`,
+                text: `🟨 @${mentionedUser.split("@")[0]} is not *Banned* !`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
@@ -59,7 +59,7 @@ module.exports = {
               return Miku.sendMessage(
                 m.from,
                 {
-                  text: `@${mentionedUser.split("@")[0]} is not *Banned* !`,
+                  text: `🟨 @${mentionedUser.split("@")[0]} is not *Banned* !`,
                   mentions: [mentionedUser],
                 },
                 { quoted: m }
@@ -74,7 +74,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } has been *Unbanned* Successfully! by *${pushName}*`,
+                } 🟩 *Unbanned*`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
