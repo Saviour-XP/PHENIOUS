@@ -2,7 +2,7 @@ const { Sticker, StickerTypes } = require('wa-sticker-formatter')
 
 module.exports = {
     name: "sticker",
-    alias: ["s--c"],
+    alias: ["s --c"],
     desc: "To make sticker",
     category: "Utilities",
     usage: "sticker <reply to image>",
