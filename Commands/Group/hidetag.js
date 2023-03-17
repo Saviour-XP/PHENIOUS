@@ -1,10 +1,10 @@
 module.exports = {
   name: "hidetag",
-  alias: ["htag", "ping"],
+  alias: ["htag", "."],
   desc: "Tag all group member without @ mention",
   category: "Group",
   usage: "htag <your message>",
-  react: "🍁",
+  react: "❕",
   start: async (
     Miku,
     m,
