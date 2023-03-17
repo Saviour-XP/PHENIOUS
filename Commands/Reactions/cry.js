@@ -7,7 +7,7 @@ module.exports = {
   desc: "To crying for any user",
   category: "Reaction",
   usage: `cry @user`,
-  react: "🍁",
+  react: "❄️",
   start: async (Miku, m, { text, prefix, args,mentionByTag }) => {
     var pat = await fetchJson(`https://api.waifu.pics/sfw/cry`);
     try {
