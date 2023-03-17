@@ -1,10 +1,10 @@
 module.exports = {
   name: "demote",
-  alias: ["dem"],
+  alias: ["zz"],
   desc: "Demote a member",
   category: "Group",
   usage: "demote @user",
-  react: "🍁",
+  react: "💢",
   start: async (
     Miku,
     m,
@@ -35,7 +35,7 @@ module.exports = {
       return Miku.sendMessage(
         m.from,
         {
-          text: `@${mentionedUser.split("@")[0]} Senpai is not an *Admin* !`,
+          text: `@${mentionedUser.split("@")[0]} Demoted* !`,
           mentions: [mentionedUser],
         },
         { quoted: m }
