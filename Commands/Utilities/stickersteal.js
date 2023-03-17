@@ -2,11 +2,11 @@ const { Sticker, StickerTypes } = require('wa-sticker-formatter')
 
 module.exports = {
     name: "steal",
-    alias: ["stickersteal"],
+    alias: ["take"],
     desc: "To steal a sticker",
     category: "Utilities",
     usage: "steal <reply to sticker>",
-    react: "🍁",
+    react: "❄️",
     start: async (Miku, m, { text, prefix,quoted,pushName,mime,args }) => {
         if(!args.join(" ")){
             var packName = pushName;
