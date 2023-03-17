@@ -539,7 +539,7 @@ Here's the list of my Commands.\n
           type: 1,
         },
         {
-          buttonId: `${prefix}repo`,
+          buttonId: `${prefix}support`,
           buttonText: { displayText: "🧩 Source Code 🧩" },
           type: 1,
         },
