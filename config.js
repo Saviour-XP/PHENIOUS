@@ -56,14 +56,14 @@ module.exports = {
 
 global.mess = {
   jobdone: "Job done...",
-  useradmin: "Sorry, only *Group Admins* can use this command *Baka*!",
+  useradmin: "KID, look like you are not group ⚠️ *ADMIN* ⚠️",
   botadmin:
     "Sorry, i cant execute this command without being an *Admin* of this group.",
-  botowner: "Only my *Owner* can use this command, Baka!",
+  botowner: "Seesh you are not capable as my owner ask him",
   grouponly: "This command is only made for *Groups*, Baka!",
   privateonly: "This command is only made for *Private Chat*, Baka!",
   botonly: "Only the *Bot itself* can use this command!",
-  waiting: "Chotto Matte...",
+  waiting: "Sending...",
   nolink: "Please provide me *link*, Baka!",
   error: "An error occurd!",
   banned: `You are *Banned* fron using commands!  \n\nType *${prefa}owner* or *${prefa}support* to submit a request to unban yourself !`,
