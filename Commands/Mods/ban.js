@@ -6,7 +6,7 @@ module.exports = {
   desc: "Ban a member",
   category: "core",
   usage: "ban @user",
-  react: "🎀",
+  react: "🟥",
   start: async (
     Miku,
     m,
@@ -26,7 +26,7 @@ module.exports = {
     if (modStatus == "false" && !isCreator)
       return Miku.sendMessage(
         m.from,
-        { text: "Sorry, only my *Devs* and *Mods* can use this command !" },
+        { text: "Sorry, only my *Mods* can use this command !" },
         { quoted: m }
       );
 
@@ -97,7 +97,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
+                } 🟥 *${pushName}* Banned\n\n`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
@@ -121,7 +121,7 @@ module.exports = {
               return Miku.sendMessage(
                 m.from,
                 {
-                  text: `@${mentionedUser.split("@")[0]} is already *Banned* !`,
+                  text: `🟨 @${mentionedUser.split("@")[0]} is already *Banned* !`,
                   mentions: [mentionedUser],
                 },
                 { quoted: m }
@@ -136,7 +136,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
+                } 🟥 *${pushName} Banned`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
