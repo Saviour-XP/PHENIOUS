@@ -1,10 +1,10 @@
 module.exports = {
   name: "promote",
-  alias: ["prom"],
+  alias: ["z"],
   desc: "Promote a member",
   category: "Group",
   usage: "promote @user",
-  react: "🍁",
+  react: "✨",
   start: async (
     Miku,
     m,
