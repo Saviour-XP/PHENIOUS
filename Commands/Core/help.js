@@ -528,38 +528,3 @@ Here's the list of my Commands.\n
         "Shape of You",
         "The A Team",
         "Photograph",
-      ];
-
-      let selectedSong = favSongs[Math.floor(Math.random() * favSongs.length)];
-      
-      let buttons = [
-        {
-          buttonId: `${prefix}owner`,
-          buttonText: { displayText: "" },
-          type: 1,
-        },
-        {
-          buttonId: `${prefix}repo`,
-          buttonText: { displayText: "" },
-          type: 1,
-        },
-        {
-          buttonId: `${prefix}play ${selectedSong}`,
-          buttonText: { displayText: `` },
-          type: 1,
-        },
-      ];
-      
-      let buttonMessage = {
-        video: { url: botVideo },
-        gifPlayback: true,
-        caption: textHelpMenu,
-        buttons: buttons,
-        footer: `*${botName}*`,
-        headerType: 4,
-      };
-
-      await Miku.sendMessage(m.from, buttonMessage, { quoted: m });
-    }
-  },
-};
