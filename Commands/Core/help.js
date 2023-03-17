@@ -257,7 +257,7 @@ Here's the list of my Commands.\n
       }
 
       textHelpMenu += `*🔰  ${botName}  🔰*
- _Powered By:_ *Team ATLAS*
+ _Powered By:_ *RAKU ⟩⟩*
 
 🎀 To use any of these commands type " *${prefix}Command name* ".
 
